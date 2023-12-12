@@ -24,7 +24,6 @@ namespace ConsoleApp
             //IM GONNA RUIN THIS PROJECT
             Console.WriteLine("Наибольший общий делитель чисел {0} и {1} равен {2}", 294, 162, GCD(294, 162));
             Console.ReadLine();
-            another ruin
         }
     }
 }

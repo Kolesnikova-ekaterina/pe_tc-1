@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp
 {
-    class Program
+    public class Program
     {
-        static int GCD(int a, int b)
+        public static int GCD(int a, int b)
         {
+            if (a == 0 && b == 0)
+                throw new ArgumentException("all numbers are 0 at the same time ");
+
             while (b != 0)
             {
                 var t = b;

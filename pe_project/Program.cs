@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp
+namespace pe_project
 {
-    public class Program
+    class Program
     {
         public static int GCD(int a, int b)
         {
